@@ -24,27 +24,15 @@ export const App = () => {
     <div className="App">
       <h1 className="App__title">{`Count: ${count}`}</h1>
 
-      <button
-        type="button"
-        className="App__add-one"
-        onClick={() => addOne(count)}
-      >
+      <button type="button" className="App__add-one" onClick={addOne}>
         Add 1
       </button>
 
-      <button
-        type="button"
-        className="App__add-100"
-        onClick={() => add100(count)}
-      >
+      <button type="button" className="App__add-100" onClick={add100}>
         Add 100
       </button>
 
-      <button
-        type="button"
-        className="App__increase"
-        onClick={() => increase(count)}
-      >
+      <button type="button" className="App__increase" onClick={increase}>
         Increase
       </button>
     </div>
